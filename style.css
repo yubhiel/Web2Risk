@@ -1,0 +1,131 @@
+/* couleurs du starter pack */
+:root {
+    --jaune: #fddb00;
+    --blanc: #ffffff;
+    --bleu: #568ea3;
+    --bleu-ciel: #68c3d4;
+    --onyx: #313638;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--onyx);
+    background-color: var(--blanc);
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header */
+header {
+    background-color: var(--onyx);
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+nav a {
+    color: var(--blanc);
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--jaune);
+}
+
+/* sections */
+section {
+    padding: 40px 20px;
+}
+
+.bleu {
+    background-color: var(--bleu-ciel);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* colonnes */
+.colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.colonne {
+    flex: 1;
+    min-width: 250px;
+}
+
+.boite {
+    background-color: var(--blanc);
+    padding: 15px;
+}
+
+/* formulaire */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+button {
+    background-color: var(--jaune);
+    color: var(--onyx);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--onyx);
+    color: var(--jaune);
+}
+
+#form-error {
+    color: red;
+}
+
+#form-success {
+    background-color: var(--onyx);
+    color: var(--jaune);
+    text-align: center;
+    padding: 10px;
+}
+
+/* footer */
+footer {
+    background-color: var(--onyx);
+    color: var(--blanc);
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+}

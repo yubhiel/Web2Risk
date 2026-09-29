@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web2Risk Agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo/logoweb2riskblanc.png" alt="logo Web2Risk">
+            <a href="#presentation">Presentation</a>
+            <a href="#services">Services</a>
+            <a href="#equipe">Team</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- presentation -->
+    <section id="presentation">
+        <h1>Web2Risk Agency</h1>
+        <div class="colonnes">
+            <div class="colonne">
+                <p>Web2risk Agency is an innovative web agency specialising in the design and development of bespoke websites and web applications. Situated at the heart of digital transformation, our agency supports businesses in optimising their online presence by offering technological solutions tailored to their specific needs.</p>
+                <p>Our services encompass the entire digital creation process, from initial analysis to final deployment. Whether for a showcase site, an e-commerce platform, or a complex web application, Web2risk Agency guarantees efficient, secure, and scale.</p>
+                <p>Boasting a team of experienced developers and creative designers, Web2risk Agency places user experience at the heart of every project. With a collaborative and innovative approach, we transform our clients' ideas into tangible projects, optimised to enhance their visibility and digital growth.</p>
+            </div>
+            <div class="colonne">
+                <img src="misc/imagequatre.jpg" alt="illustration presentation">
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section id="services" class="bleu">
+        <h2>Our services</h2>
+        <div class="colonnes">
+            <div class="colonne boite">
+                <img src="misc/imagedeux.jpg" alt="custom website development">
+                <h3>Custom website development</h3>
+                <p>Creation of unique and optimised websites, adaptable to all devices, to ensure an engaging and modern user experience.</p>
+            </div>
+            <div class="colonne boite">
+                <img src="misc/imagetrois.jpg" alt="Interactive web applications">
+                <h3>Interactive web applications</h3>
+                <p>Design of high-performing and intuitive web applications, incorporating the latest technologies to meet the specific needs of each client.</p>
+            </div>
+            <div class="colonne boite">
+                <img src="misc/imageune.jpg" alt="SEO optimisation">
+                <h3>SEO optimisation and performance analysis</h3>
+                <p>Enhancement of search engine ranking and performance monitoring to maximise the visibility and impact of websites and applications on search engines.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- equipe -->
+    <section id="equipe">
+        <h2>Our team</h2>
+        <p>The team at Web2risk Agency is made up of passionate and complementary professionals: front-end and back-end developers, UX/UI designers, SEO experts, and dedicated project managers. Each individual contributes their expertise to ensure effective and creative solutions, while maintaining a smooth and efficient collaboration. Together, they strive to transform clients' ideas into memorable and bespoke digital experiences.</p>
+
+        <div class="colonnes">
+            <div class="colonne boite">
+                <img src="equipe/lucas.jpg" alt="Lucas">
+                <h3>Lucas</h3>
+                <p><b>Front-End Developer, specialist in seamless interfaces.</b></p>
+                <p>A technology enthusiast, Lucas is an expert in JavaScript and modern frameworks such as React and Vue.js. Always on the lookout for the latest trends, he ensures a smooth and responsive interface, with a focus on accessibility and user experience. A great fan of minimalist design, he enjoys creating interfaces that are both aesthetically pleasing and functional.</p>
+            </div>
+            <div class="colonne boite">
+                <img src="equipe/emma.jpg" alt="Emma">
+                <h3>Emma</h3>
+                <p><b>Digital project manager, ensuring the success of your projects.</b></p>
+                <p>With several years of experience in web project management, Emma serves as the link between the technical team and the clients. Organised and meticulous, she ensures that each stage of the project adheres to the budget and timelines, while also meeting the clients' needs. Possessing a keen ability to listen, she makes certain that every project aligns with the vision of the end user.</p>
+            </div>
+            <div class="colonne boite">
+                <img src="equipe/sophia.jpg" alt="Sofia">
+                <h3>Sofia</h3>
+                <p><b>SEO expert, your ally in maximising your visibility.</b></p>
+                <p>With a solid expertise in natural referencing, Sofia is adept at using data analysis tools to maximise the visibility of projects. She conducts thorough SEO audits and identifies the best strategies to ensure each site achieves optimal positioning. Passionate about numbers and user behaviour, she constantly adjusts her recommendations to enhance performance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="bleu">
+        <h2>Contact us</h2>
+        <form id="contact-form" action="contact.php" method="POST">
+            <label for="nom">Name</label>
+            <input type="text" id="nom" name="nom">
+
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6"></textarea>
+
+            <p id="form-error"></p>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Web2Risk Agency</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
